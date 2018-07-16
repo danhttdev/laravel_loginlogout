@@ -16,3 +16,14 @@ php artisan migrate
 php artisan migrate:refresh --seed
 php artisan serve --port 8000
 
+-cai passport uy quyen
+composer require laravel/passport
+php artisan migrate
+php artisan passport:install
+php artisan vendor:publish --tag=passport-components
+npm run dev
+npm install --save-dev cross-env
+npm install
+npm run dev
+
+tao thu muc thu 2 cho loginlogout.consumer

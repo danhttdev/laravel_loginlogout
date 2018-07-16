@@ -41,8 +41,15 @@ return [
             'provider' => 'users',
         ],
 
+        //commented
+        // 'api' => [
+        //     'driver' => 'token',
+        //     'provider' => 'users',
+        // ],
+
+        //edited
         'api' => [
-            'driver' => 'token',
+            'driver' => 'passport',
             'provider' => 'users',
         ],
     ],
