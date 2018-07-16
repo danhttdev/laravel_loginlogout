@@ -1,0 +1,18 @@
+-tao project
+composer create-project --prefer-dist laravel/laravel laravelloginlogout
+-chinh file .env
+database,username,pasword
+-tao key: 
+php artisan key:generate
+-tao reponsitory tren git
+-clone ve: git clone link.....
+-copy .git to folder laravel 
+-push code
+-migrate database:
+php artisan migrate
+
+
+
+php artisan migrate:refresh --seed
+php artisan serve --port 8000
+
